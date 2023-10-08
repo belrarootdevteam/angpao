@@ -1,10 +1,10 @@
-<x-header />
+@extends('layouts.frontend')
 
-<main>
-    <div class="container mt-60">
-        <h1>Templates</h1>
-        <hr />
-    </div>
-</main>
-
-<x-footer />
+@section('content')
+    <main>
+        <div class="container mt-60">
+            <h1>Templates</h1>
+            <hr/>
+        </div>
+    </main>
+@endsection
