@@ -29,17 +29,19 @@
                             <img class="h-100" src="{{ asset('./images/Rectangle 44.png') }}" alt="">
                         </div>
                     </div>
-                    <div>
-                        <button class="btn btn-primary br-20 mr-20">Live Preview</button>
-                        <button class="btn bg-D9D9D9 br-20">Documentation</button>
+                    <div class="text-center">
+                        <button class="bg-1170FF fs-20 br-30 pt-12 pb-12 pl-32 pr-32 border-none text-white mb-2">
+                            Live Preview
+                        </button>
+                        <button class="bg-D9D9D9 fs-20 br-30 pt-12 pb-12 pl-32 pr-32 border-none">Documentation</button>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12 col-lg-5">
-                <h3 class="mb-3">Templates Website</h3>
+            <div class="col-sm-12 col-md-12 col-lg-5 mb-4">
+                <h3 class="mb-3 fs-20 fw-400">Templates Website</h3>
                 <img class="w-100 mb-2" src="{{ asset('./images/Rectangle 37.png') }}" alt="">
-                <div>
-                    <button class="btn bg-BD0000">
+                <div class="d-flex mb-4 gap-2">
+                    <button class="bg-BD0000 br-30 p-3 fs-20 text-white border-none w-100">
                         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="29" viewBox="0 0 32 29"
                             fill="none">
                             <path
@@ -48,10 +50,42 @@
                         </svg>
                         หยิบใส่ตะกร้า
                     </button>
-                    <button class="btn bg-BD0000">
+                    <button class="bg-BD0000 br-30 p-3 fs-20 text-white border-none w-100">
                         สั่งชื้อสินค้า
                     </button>
                 </div>
+                <div class="d-flex justify-content-between gap-2">
+                    <img class="h-100" src="{{ asset('./images/image 7.png') }}" alt="">
+                    <img class="h-100" src="{{ asset('./images/image 8.png') }}" alt="">
+                    <img class="h-100" src="{{ asset('./images/image 9.png') }}" alt="">
+                    <img class="h-100" src="{{ asset('./images/image 10.png') }}" alt="">
+                    <img class="h-100" src="{{ asset('./images/image 11.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-7">
+                <h3 class="mb-3 fs-20 fw-400">Description</h3>
+                <div class="mt-4 mb-4 mb-4">
+                    <img class="w-100 mb-4" src="{{ asset('./images/Rectangle 25.png') }}" alt="">
+                </div>
+                <h3 class="mb-3 fs-20 fw-400">Comment</h3>
+                <div class="row">
+                    <div class="col-6">
+                        <img class="w-100 mb-4" src="{{ asset('./images/Rectangle 38.png') }}" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="w-100 mb-4" src="{{ asset('./images/Rectangle 38.png') }}" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="w-100 mb-4" src="{{ asset('./images/Rectangle 38.png') }}" alt="">
+                    </div>
+                    <div class="col-6">
+                        <img class="w-100 mb-4" src="{{ asset('./images/Rectangle 38.png') }}" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-5">
             </div>
         </div>
     </div>

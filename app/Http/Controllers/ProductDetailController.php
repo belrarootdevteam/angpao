@@ -9,6 +9,6 @@ class ProductDetailController extends Controller
     //
     public function index() 
     {
-        return view('productDetail.index');
+        return view('pages.productDetail.index');
     }
 }

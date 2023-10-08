@@ -38,6 +38,13 @@ input:focus {
     background-color: #d9d9d9;
 }
 
+.bg-1170FF {
+    background-color: #1170ff;
+}
+
+.bg-FFFFFF {
+    background-color: #ffffff;
+}
 .bg-980000-C10000 {
     background: linear-gradient(90deg, #980000 0%, #c10000 100%);
 }
@@ -91,6 +98,10 @@ input:focus {
     border-radius: 20px;
 }
 
+.br-30 {
+    border-radius: 30px;
+}
+
 .mr-13 {
     margin-right: 13px;
 }
@@ -116,6 +127,10 @@ input:focus {
     max-height: 20px;
 }
 
+.max-h-40 {
+    max-height: 40px;
+}
+
 .max-h-384 {
     max-height: 384px;
 }
@@ -123,8 +138,20 @@ input:focus {
 .max-h-190 {
     max-height: 190px !important;
 }
+.max-h-28 {
+    max-height: 28px;
+}
+.max-w-24 {
+    max-width: 24px;
+}
+.max-w-100 {
+    max-width: 100px;
+}
 
 /* Margin Top */
+.mt-40 {
+    margin-top: 40px;
+}
 .mt-50 {
     margin-top: 50px;
 }
@@ -145,4 +172,30 @@ input:focus {
 }
 .pb-15 {
     padding-bottom: 15px !important;
+}
+
+.pt-12 {
+    padding-top: 12px;
+}
+
+.pb-12 {
+    padding-bottom: 12px;
+}
+
+.pl-32 {
+    padding-left: 32px;
+}
+
+.pr-32 {
+    padding-right: 32px;
+}
+
+.p-8 {
+    padding: 32px;
+}
+.p-30 {
+    padding: 30px;
+}
+.cursor-pointer {
+    cursor: pointer;
 }
