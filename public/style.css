@@ -62,8 +62,13 @@ input:focus {
     max-width: 460px;
 }
 
+/* Border Radius */
 .br-10 {
     border-radius: 10px;
+}
+
+.br-20 {
+    border-radius: 20px;
 }
 
 .mr-13 {
@@ -86,6 +91,11 @@ input:focus {
     height: 120px;
 }
 
+/* Max Height */
+.max-h-20{
+    max-height: 20px;
+}
+
 .max-h-384 {
     max-height: 384px;
 }
@@ -94,6 +104,7 @@ input:focus {
     max-height: 190px !important;
 }
 
+/* Margin Top */
 .mt-60 {
     margin-top: 60px;
 }
