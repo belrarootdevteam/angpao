@@ -42,11 +42,11 @@
     <div class="container text-center mt-60">
         <h1 class="fs-32 fw-400">สินค้าแนะนำ</h1>
         <div class="d-flex justify-content-center gap-4">
-            <?php for ($i=0; $i < 3; $i++) { ?>
-            <div>
-                <img class="w-100 h-100" src="{{ asset('/images/Rectangle 18.png') }}" alt="">
-            </div>
-            <?php } ?>
+            @for ($i = 0; $i < 3; $i++)
+                <a href="{{ url('/product') }}">
+                    <img class="w-100 h-100" src="{{ asset('/images/Rectangle 18.png') }}" alt="">
+                </a>
+            @endfor
         </div>
     </div>
 </main>
