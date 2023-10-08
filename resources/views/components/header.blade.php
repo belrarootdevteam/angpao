@@ -37,7 +37,7 @@
             {{-- Navbar --}}
             <nav class="navbar navbar-expand-lg bg-body-tertiary bg-980000-C10000">
                 <div class="container-fluid justify-content-center align-items-center gap-2">
-                    <a class="navbar-brand mr-13" href="#"><img src="{{ asset('/images/logo_navbar.png') }}"
+                    <a href="{{ url('/') }}" class="navbar-brand mr-13" href="#"><img src="{{ asset('/images/logo_navbar.png') }}"
                             alt=""></a>
                     <div class="input-group mb-3 mw-460 mr-13 bg-dbdbdb-ffffff br-10"
                         style="margin-bottom: 0 !important">
