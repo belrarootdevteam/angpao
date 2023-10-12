@@ -23,7 +23,8 @@
                         <li><a class="dropdown-item" href="#">อังกฤษ</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="cursor-pointer">
+
                     <span class="text-white fs-12">ลงชื่อเข้าใช้</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="13" viewBox="0 0 12 13"
                         fill="none">
@@ -37,8 +38,8 @@
             {{-- Navbar --}}
             <nav class="navbar navbar-expand-lg bg-body-tertiary bg-980000-C10000">
                 <div class="container-fluid justify-content-center align-items-center gap-2">
-                    <a href="{{ url('/') }}" class="navbar-brand mr-13" href="#"><img src="{{ asset('/images/logo_navbar.png') }}"
-                            alt=""></a>
+                    <a href="{{ url('/') }}" class="navbar-brand mr-13" href="#"><img
+                            src="{{ asset('/images/logo_navbar.png') }}" alt=""></a>
                     <div class="input-group mb-3 mw-460 mr-13 bg-dbdbdb-ffffff br-10"
                         style="margin-bottom: 0 !important">
                         <input type="text" class="form-control bg-none br-10 h-47 border-none outline-none"
@@ -52,22 +53,24 @@
                             </svg>
                         </span>
                     </div>
-                    <svg class="mr-13" xmlns="http://www.w3.org/2000/svg" width="37" height="33"
+                    <svg class="mr-13 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="37" height="33"
                         viewBox="0 0 37 33" fill="none">
                         <path
                             d="M33.9244 19.421L36.961 6.0147C37.1803 5.04674 36.447 4.125 35.4577 4.125H10.2269L9.63812 1.23686C9.4914 0.516979 8.86009 0 8.12773 0H1.54167C0.690217 0 0 0.692549 0 1.54688V2.57812C0 3.43245 0.690217 4.125 1.54167 4.125H6.03068L10.5431 26.2605C9.46359 26.8834 8.73611 28.0514 8.73611 29.3906C8.73611 31.384 10.3466 33 12.3333 33C14.32 33 15.9306 31.384 15.9306 29.3906C15.9306 28.3804 15.5164 27.4677 14.8499 26.8125H28.3168C27.6502 27.4677 27.2361 28.3804 27.2361 29.3906C27.2361 31.384 28.8466 33 30.8333 33C32.82 33 34.4306 31.384 34.4306 29.3906C34.4306 27.9616 33.6027 26.7266 32.4021 26.1419L32.7564 24.5772C32.9757 23.6092 32.2424 22.6875 31.2531 22.6875H14.011L13.5906 20.625H32.4211C33.1409 20.625 33.7649 20.1252 33.9244 19.421Z"
                             fill="white" />
                     </svg>
 
-                    <svg class="mr-40" xmlns="http://www.w3.org/2000/svg" width="33" height="28"
+                    <svg class="mr-40 cursor-pointer" xmlns="http://www.w3.org/2000/svg" width="33" height="28"
                         viewBox="0 0 33 28" fill="none">
                         <path id="Vector"
                             d="M29.7969 1.91454C26.2649 -1.00416 21.0121 -0.479166 17.7702 2.76452L16.5005 4.03325L15.2308 2.76452C11.9953 -0.479166 6.73601 -1.00416 3.20405 1.91454C-0.843529 5.26448 -1.05622 11.2769 2.56598 14.9081L15.0374 27.3953C15.8431 28.2016 17.1514 28.2016 17.9571 27.3953L30.4285 14.9081C34.0572 11.2769 33.8445 5.26448 29.7969 1.91454Z"
                             fill="white" />
                     </svg>
-                    <div>
-                        <img src="{{ asset('/images/avartar_navbar_user.png') }}" alt="">
-                        <span class="text-white fs-16 fw-400">@ANGPAO</span>
+                    <div class="cursor-pointer">
+                        <a href="/account">
+                            <img src="{{ asset('/images/avartar_navbar_user.png') }}" alt="">
+                            <span class="text-white fs-16 fw-400">@ANGPAO</span>
+                        </a>
                     </div>
                 </div>
             </nav>
